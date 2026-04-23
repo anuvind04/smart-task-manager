@@ -117,3 +117,4 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 LOGIN_URL = '/login/'
+CSRF_TRUSTED_ORIGINS = ['https://smart-task-manager-production-1745.up.railway.app']
